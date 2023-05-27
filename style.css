@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blueviolet;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+section{
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: beige;
+    width: 30%;
+    height: 80vh;
+
+    margin: 30px auto;
+    padding: 20px;
+    /* position: relative; */
+}
+.container{
+    width: 100%;
+    border: 1px solid blue;
+
+}
+.input-section{
+    width: 100%;
+    /* border: 1px solid blue; */
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+input, select{
+    height: 35px;
+    width: 70%;
+}
+
+
+
+
+.result{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#convtButton{
+    cursor: pointer;
+}
