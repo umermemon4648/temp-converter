@@ -27,6 +27,7 @@
             <div class="input-fields">
                 <label>Degree Type</label>
                 <select name="" id="degreeType">
+                    <!-- <option value="Select type">Select type </option> -->
                     <option value="Celsius">Celsius </option>
                     <option value="Fahrenheit">Fahrenheit</option>
                     <option value="Kelvin">Kelvin</option>
@@ -35,10 +36,9 @@
             
             <div class="input-fields">
                 <label>Convert into</label>
-                <select name="" id="convertSelect">
-                <option value="">Fahreheit</option>
-                <option value="">Kelvin</option>
-            </select>
+                <select placeholder="Result" id="conversionOptions">
+                    <!-- <option value="Select type">Select type </option> -->
+                </select>
         </div>
 
 
@@ -49,7 +49,7 @@
             <h4>--------------Result-----------</h4>
             
             <div class="input-fields">
-                <input type="text" name="" id="" placeholder="Result" readonly>
+                <input type="text" id="resultField" placeholder="Result" readonly>
             </div>
             
             <div class="input-fields">

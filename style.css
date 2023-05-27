@@ -58,3 +58,7 @@ input, select{
 #convtButton{
     cursor: pointer;
 }
+#resultField{
+    color: red;
+    font-weight: bold;
+}
