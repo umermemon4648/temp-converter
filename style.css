@@ -93,6 +93,11 @@ input:focus, select:focus{
 }
 
 #convtButton{
+    height: 3.8rem;
+    width: 90%;
+    border-radius: 0.6rem;
+    font-size: 1.8rem;
+
     cursor: pointer;
     color: #fff;
     background-color: #DB2B77;
@@ -112,3 +117,6 @@ input:focus, select:focus{
     background-color: #E4E9EC;
     padding-left: 2rem;
 }
+/* .fa-solid{
+    color: black;
+} */
