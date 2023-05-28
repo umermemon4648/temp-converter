@@ -1,35 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap');
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 body{
-    background-color: blueviolet;
+    background-color: #1C2130;
+    color: #fff;
+    background-color: #121212;
+    background-color: #DB2B77;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2rem;
+    font-weight: 900;
 }
+html {
+    font-size: 62.5%;
+  }
+  
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
 section{
-
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
-    background-color: beige;
+    background-color: #112D30;
+    background-color: #1F2937;
+    background-color: #374151;
     width: 30%;
     height: 80vh;
-
-    margin: 30px auto;
+    margin: 5rem auto;
     padding: 20px;
-    /* position: relative; */
-}
-.container{
-    width: 100%;
-    border: 1px solid blue;
+    border-radius: 28px; 
+    box-shadow: -20px 5px 10px -8px rgba(0,0,0,0.1),0px 10px 33px 11px rgba(0,0,0,0.1);
 
 }
+.container {
+    width: 100%;
+    /* border: 1px solid blue; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: 3rem;
+    /* padding-right: auto; */
+  }
+  .heading{
+    margin-bottom: 1.3rem;
+  }
 .input-section{
     width: 100%;
     /* border: 1px solid blue; */
@@ -37,19 +58,35 @@ section{
 .input-fields{
     display: flex;
     flex-direction: column;
-    margin-top: 10px;
+    margin-top: 2rem;
 }
 
 input, select{
-    height: 35px;
-    width: 70%;
+    height: 3.8rem;
+    width: 90%;
+    border-radius: 0.6rem;
+    padding-left: 1.5rem;
+    font-size: 1.8rem;
+    background-color: #E4E9EC;
+    transition: 0.2s all;
+
+}
+select{
+    cursor: pointer;
+}
+
+input:focus, select:focus{
+    outline: 1px solid #DB2B77;
+    border: 1px solid #DB2B77;
+
+
 }
 
 
 
 
 .result{
-    margin-top: 30px;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -57,8 +94,21 @@ input, select{
 
 #convtButton{
     cursor: pointer;
+    color: #fff;
+    background-color: #DB2B77;
+    border: none;
+    outline: none;
 }
+#convtButton:hover{
+    background-color: #c5467d;
+}
+
 #resultField{
+    margin: 1rem 0;
     color: red;
-    font-weight: bold;
+    font-weight: 900;
+    border: none;
+    outline: none;
+    background-color: #E4E9EC;
+    padding-left: 2rem;
 }
